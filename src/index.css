@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input {
+    @apply rounded-lg p-2 text-sm shadow-md;
+  }
+
+  td {
+    @apply border p-2;
+  }
+}
